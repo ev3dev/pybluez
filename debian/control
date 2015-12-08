@@ -1,0 +1,21 @@
+Source: pybluez
+Section: python
+Priority: optional
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Uploaders: Albert Huang <albert@csail.mit.edu>
+Build-Depends: debhelper (>= 5.0.37.2), python-all-dev (>= 2.6.6-3~), libbluetooth-dev
+Vcs-Svn: svn://svn.debian.org/pkg-bluetooth/packages/pybluez/trunk
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-bluetooth/packages/pybluez/trunk
+Homepage: https://karulis.github.io/pybluez/
+Standards-Version: 3.9.5
+
+Package: python-bluez
+Architecture: any
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: python-bluetooth, ${python:Provides}
+Description: Python wrappers around BlueZ for rapid bluetooth development
+ PyBluez is an effort to create Python wrappers around BlueZ to allow Python
+ developers to use system bluetooth resources. PyBluez works on machines
+ running the GNU/Linux operating system and the bluez bluetooth stack.
+ .
+ This package provides the "bluetooth" Python module.
