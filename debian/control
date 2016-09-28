@@ -1,7 +1,8 @@
 Source: pybluez
 Section: python
 Priority: optional
-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Maintainer: David Lechner <david@lechnology.com>
+XSBC-Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
 Uploaders: Albert Huang <albert@csail.mit.edu>
 Build-Depends: debhelper (>= 5.0.37.2)
  , dh-python
