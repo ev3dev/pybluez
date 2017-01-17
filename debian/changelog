@@ -1,3 +1,10 @@
+pybluez (0.22-1ev3dev2) stable; urgency=medium
+
+  * Add Recommeds: python(3)-gattlib
+  * Fix Provides: on python3 package
+
+ -- David Lechner <david@lechnology.com>  Mon, 16 Jan 2017 21:04:39 -0600
+
 pybluez (0.22-1ev3dev1) stable; urgency=medium
 
   * Acutally update to 0.22
