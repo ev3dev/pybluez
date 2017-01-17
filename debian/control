@@ -32,7 +32,7 @@ Package: python3-bluez
 Architecture: any
 Depends: ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}
 Recommends: python3-gattlib
-Provides: python-bluetooth, ${python3:Provides}
+Provides: python3-bluetooth, ${python3:Provides}
 Description: Python wrappers around BlueZ for rapid bluetooth development
  PyBluez is an effort to create Python wrappers around BlueZ to allow Python
  developers to use system bluetooth resources. PyBluez works on machines
