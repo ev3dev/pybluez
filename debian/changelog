@@ -1,3 +1,9 @@
+pybluez (0.22-1ev3dev3) testing; urgency=medium
+
+  * Target stretch
+
+ -- David Lechner <david@lechnology.com>  Fri, 24 Mar 2017 21:06:01 -0500
+
 pybluez (0.22-1ev3dev2) stable; urgency=medium
 
   * Add Recommends: python(3)-gattlib
