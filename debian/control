@@ -3,7 +3,6 @@ Section: python
 Priority: optional
 Maintainer: David Lechner <david@lechnology.com>
 XSBC-Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
-Uploaders: Albert Huang <albert@csail.mit.edu>
 Build-Depends: debhelper (>= 5.0.37.2)
  , dh-python
  , python-all-dev (>= 2.6.6-3~)
@@ -11,10 +10,10 @@ Build-Depends: debhelper (>= 5.0.37.2)
  , python3-all-dev
  , python3-setuptools
  , libbluetooth-dev
-Vcs-Svn: svn://svn.debian.org/pkg-bluetooth/packages/pybluez/trunk
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-bluetooth/packages/pybluez/trunk
+Vcs-Git: https://github.com/ev3dev/pybluez.git
+Vcs-Browser: https://github.com/ev3dev/pybluez
 Homepage: https://karulis.github.io/pybluez/
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 
 Package: python-bluez
 Architecture: any
